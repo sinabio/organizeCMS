@@ -6,3 +6,7 @@ before_script:
   - composer update
   - composer install
   - mysql -e 'create database IF NOT EXISTS organizecms_test;'
+
+install:
+
+after_script:
