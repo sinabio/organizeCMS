@@ -1,0 +1,17 @@
+#content {
+    margin-top: 60px;
+}
+
+
+
+
+/* Full Width on Bigger Screens */
+/* HD 1920x1080 */
+@media (min-width: 1920px) {
+    .container { width: 1900px; }
+}
+
+/* 2560 Widescreen */
+@media (min-width: 2560px) {
+    .container { width: 2500px; }
+}
