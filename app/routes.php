@@ -11,9 +11,5 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
-
+Route::get('/', "DashboardController@index");
 Route::get('install', "InstallController@configure");

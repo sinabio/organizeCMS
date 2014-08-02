@@ -2,7 +2,7 @@
 
 @section('content')
     <h1>organizeCMS :: Installation</h1>
-    <div class="well bs-component col-lg-8">
+    <div class="well bs-component col-lg-10">
         <form class="form-horizontal" role="form">
 
             <h2>Database</h2>
@@ -26,6 +26,8 @@
                 <label for="dbpass" class="control-label col-lg-2">database password</label>
                 <input type="password" name="dbpass" id="dbpass" class="form-control col-lg-4" />
             </div>
+
+            <button type="button" class="btn btn-success" id="continue">Continue</button>
 
         </form>
     </div>
