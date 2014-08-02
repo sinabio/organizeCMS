@@ -7,7 +7,7 @@ class ExampleTest extends TestCase {
 	 *
 	 * @return void
 	 */
-	public function testBasicExample()
+	public function testGetHomepage()
 	{
 		$crawler = $this->client->request('GET', '/');
 
