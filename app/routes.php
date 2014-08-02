@@ -12,4 +12,7 @@
 */
 
 Route::get('/', "DashboardController@index");
+
+Route::resource('vehicles', 'VehicleController');
+
 Route::get('install', "InstallController@configure");

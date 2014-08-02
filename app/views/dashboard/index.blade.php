@@ -1,4 +1,7 @@
 @extends('layouts.master')
+@section('title')
+organizeCMS - Dashboard
+@stop
 
 @section('content')
 
@@ -8,7 +11,9 @@
     <div class="col-xs-2	col-sm-2 col-md-2 col-lg-2">
         <h3>{{ $wdata['title'] }}</h3>
         @if (is_array($wdata['content']))
-            foreach
+            @foreach ($wdata['content'] as $k => $v)
+                {{ $k }} {{ $v }}
+            @endforeach
         @else
             {{ $wdata['content'] }}
         @endif

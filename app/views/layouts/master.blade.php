@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <title>@yield('title')</title>
 </head>
 <body>
 <div class="container">

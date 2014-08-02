@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSettingsTable extends Migration {
+class CreateFuelTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,11 +12,13 @@ class CreateSettingsTable extends Migration {
 	 */
 	public function up()
 	{
-        Schema::create('settings', function($table)
+        Schema::create('fuel', function($table)
         {
             $table->increments('id');
-            $table->string('key');
-            $table->string('val');
+            $table->date('date');
+            $table->decimal('fuel_amount', 10, 2);
+            $table->decimal('price', 10, 2);
+            $table->decimal('ppl', 10, 2); // Price Per Litre
         });
 	}
 
@@ -27,7 +29,7 @@ class CreateSettingsTable extends Migration {
 	 */
 	public function down()
 	{
-        Schema::drop('users');
+        Schema::drop('fuel');
 	}
 
 }

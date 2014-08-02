@@ -1,4 +1,7 @@
 @extends('layouts.master')
+@section('title')
+organizeCMS - Installation
+@stop
 
 @section('content')
     <h1>organizeCMS :: Installation</h1>
@@ -46,7 +49,7 @@
         Database
     </div>
     <div class="panel-body">
-        Admin User
+        Setup User
     </div>
 </div>
 @stop
