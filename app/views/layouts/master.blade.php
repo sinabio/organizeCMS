@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap_slate.min.css" />
     <link rel="stylesheet" href="assets/css/organizecms.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container">
