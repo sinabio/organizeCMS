@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4faf6c0a-5e8f-449e-a5f5-e306845df204" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_08_02_191250_create_fuel_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_08_02_212924_create_vehicles_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/organizeCMS/lib/calendar/Event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/fuel/Fuel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/seeds/FuelTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/fuel/FuelWidget.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/mileage/Mileage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/Vehicle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/VehicleController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/seeds/VehicleTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/organizeCMS/lib/conversion/Volume.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tests/organizeCMS/conversion/VolumeTest.php" />
-      <change type="DELETED" beforePath="C:\wamp\www\organizeCMS\bootstrap\compiled.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\organizeCMS\organizeCMS" afterPath="" />
+    <list default="true" id="4faf6c0a-5e8f-449e-a5f5-e306845df204" name="Default" comment="organizeCMS :: added some migrations and seeders">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_08_02_220059_create_vehicle_makes_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/VehicleMake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/seeds/VehicleMakesTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/vehicles/create.blade.php" />
+      <change type="DELETED" beforePath="C:\wamp\www\organizeCMS\app\database\seeds\FuelTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\organizeCMS\app\database\seeds\VehicleTableSeeder.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/development.sqlite" afterPath="$PROJECT_DIR$/app/database/development.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_02_152241_create_settings_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_08_02_152241_create_settings_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_02_212924_create_vehicles_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_08_02_212924_create_vehicles_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/Vehicle.php" afterPath="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/Vehicle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/VehicleController.php" afterPath="$PROJECT_DIR$/app/controllers/VehicleController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/install/configure.blade.php" afterPath="$PROJECT_DIR$/app/views/install/configure.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboard/index.blade.php" afterPath="$PROJECT_DIR$/app/views/dashboard/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/master.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/master.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -57,10 +48,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Volume.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/organizeCMS/lib/conversion/Volume.php">
+      <file leaf-file-name="create.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/vehicles/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="9" selection-start="628" selection-end="628" vertical-scroll-proportion="-12.0" vertical-offset="297" max-vertical-offset="1023">
+            <state line="51" column="0" selection-start="1752" selection-end="1752" vertical-scroll-proportion="-4.818182" vertical-offset="1524" max-vertical-offset="2409">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/master.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="67" selection-start="264" selection-end="264" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="1518">
               <folding />
             </state>
           </provider>
@@ -69,73 +69,28 @@
       <file leaf-file-name="2014_08_02_212924_create_vehicles_table.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_02_212924_create_vehicles_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="348" selection-end="348" vertical-scroll-proportion="-1.0" vertical-offset="495" max-vertical-offset="1320">
+            <state line="17" column="26" selection-start="349" selection-end="349" vertical-scroll-proportion="-5.818182" vertical-offset="336" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FuelTableSeeder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/FuelTableSeeder.php">
+      <file leaf-file-name="Vehicle.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/organizeCMS/lib/vehicle/Vehicle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="0" selection-end="181" vertical-scroll-proportion="-7.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="11" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.41016948" vertical-offset="0" max-vertical-offset="1056">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VehicleTableSeeder.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/VehicleTableSeeder.php">
+      <file leaf-file-name="VehicleController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/VehicleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="178" selection-end="178" vertical-scroll-proportion="0.6010929" vertical-offset="0" max-vertical-offset="660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014_08_02_191250_create_fuel_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_02_191250_create_fuel_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="227" selection-end="518" vertical-scroll-proportion="-4.0" vertical-offset="297" max-vertical-offset="1320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VolumeTest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/tests/organizeCMS/conversion/VolumeTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="5" selection-start="1358" selection-end="1358" vertical-scroll-proportion="-9.363636" vertical-offset="747" max-vertical-offset="1320">
+            <state line="45" column="21" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-45.0" vertical-offset="0" max-vertical-offset="3003">
               <folding>
-                <element signature="n#testConvertingLitreToMetricGallons#0;n#VolumeTest#0;n#!!top" expanded="false" />
+                <element signature="e#7#43#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/tests/TestCase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="109" selection-end="109" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="825">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mileage.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/organizeCMS/lib/vehicle/mileage/Mileage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="396">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="10" selection-start="441" selection-end="441" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="858">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -169,7 +124,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/app/organizeCMS/lib/fuel/Fuel.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/app/views/dashboard/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/install/configure.blade.php" />
         <option value="$PROJECT_DIR$/app/organizeCMS/lib/calendar/Event.php" />
@@ -177,19 +131,24 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_02_152241_create_settings_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/FuelSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_02_191250_create_fuel_table.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/controllers/VehicleController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/Vehicle.php" />
-        <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/FuelTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/fuel/Fuel.php" />
         <option value="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/mileage/Mileage.php" />
         <option value="$PROJECT_DIR$/app/organizeCMS/lib/conversion/Currency.php" />
         <option value="$PROJECT_DIR$/app/organizeCMS/lib/conversion/Volume.php" />
         <option value="$PROJECT_DIR$/app/tests/organizeCMS/conversion/VolumeTest.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_02_212924_create_vehicles_table.php" />
+        <option value="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/VehicleMake.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/VehicleTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/VehicleMakesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_02_220059_create_vehicle_makes_table.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_08_02_212924_create_vehicles_table.php" />
+        <option value="$PROJECT_DIR$/app/controllers/VehicleController.php" />
+        <option value="$PROJECT_DIR$/app/views/vehicles/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/app/organizeCMS/lib/vehicle/Vehicle.php" />
       </list>
     </option>
   </component>
@@ -264,6 +223,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,38 +239,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="organizeCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="organizeCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="organizeCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="organizeCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="organizeCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="composer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,6 +307,90 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizeCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizeCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizeCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizeCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vehicles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizeCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizeCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizeCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizeCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="install" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -622,9 +634,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizeCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="organizeCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -730,7 +759,11 @@
       <created>1407005725146</created>
       <updated>1407005725146</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="organizeCMS :: added some migrations and seeders">
+      <created>1407016243927</created>
+      <updated>1407016243927</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -746,18 +779,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14492187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -778,7 +811,8 @@
     <MESSAGE value="organizeCMS :: updated travis yml" />
     <MESSAGE value="organizeCMS :: updated readme" />
     <MESSAGE value="organizeCMS :: edit travis yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="organizeCMS :: edit travis yml" />
+    <MESSAGE value="organizeCMS :: added some migrations and seeders" />
+    <option name="LAST_COMMIT_MESSAGE" value="organizeCMS :: added some migrations and seeders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -792,32 +826,45 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/DashboardController.php">
+    <entry file="file://$PROJECT_DIR$/app/organizeCMS/lib/vehicle/Vehicle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="72" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="924">
+        <state line="5" column="0" selection-start="77" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="825">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_02_191250_create_fuel_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="227" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/organizeCMS/conversion/VolumeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="5" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0" vertical-offset="1254" max-vertical-offset="1518">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="72" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1386">
-          <folding />
-        </state>
+        <state line="10" column="19" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/widgets/calendar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="6600">
-          <folding />
-        </state>
+        <state line="13" column="6" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="6600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
@@ -830,38 +877,28 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="20" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="429">
-          <folding>
-            <marker date="1407005708864" expanded="true" signature="-1:-1" placeholder="before_script:" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="5" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="4488">
-          <folding />
-        </state>
+        <state line="39" column="5" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="4488" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_02_152241_create_settings_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1221">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="5" selection-start="1296" selection-end="1296" vertical-scroll-proportion="-15.0" vertical-offset="792" max-vertical-offset="4488">
-          <folding />
-        </state>
+        <state line="39" column="5" selection-start="1296" selection-end="1296" vertical-scroll-proportion="-15.0" vertical-offset="792" max-vertical-offset="4488" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="6600">
-          <folding />
-        </state>
+        <state line="13" column="6" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="6600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/organizecms.css">
@@ -873,16 +910,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/InstallController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="86" selection-end="86" vertical-scroll-proportion="0.22372882" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
+        <state line="6" column="1" selection-start="86" selection-end="86" vertical-scroll-proportion="0.22372882" vertical-offset="0" max-vertical-offset="885" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="72" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="924">
-          <folding />
-        </state>
+        <state line="15" column="72" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -890,116 +923,64 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="110" selection-start="626" selection-end="626" vertical-scroll-proportion="-5.892857" vertical-offset="0" max-vertical-offset="363">
-          <folding />
-        </state>
+        <state line="5" column="110" selection-start="626" selection-end="626" vertical-scroll-proportion="-5.892857" vertical-offset="0" max-vertical-offset="363" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="26" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding>
-            <marker date="1407005708864" expanded="true" signature="-1:-1" placeholder="before_script:" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/widgets/calendar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="0" selection-end="531" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="957">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/install/configure.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="5" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.77627116" vertical-offset="1095" max-vertical-offset="1980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="396" selection-end="396" vertical-scroll-proportion="9.181818" vertical-offset="600" max-vertical-offset="1485">
-          <folding />
-        </state>
+        <state line="9" column="29" selection-start="0" selection-end="531" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="957" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dashboard/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="553" selection-end="553" vertical-scroll-proportion="-4.0" vertical-offset="495" max-vertical-offset="1551">
-          <folding />
-        </state>
+        <state line="19" column="10" selection-start="553" selection-end="553" vertical-scroll-proportion="-4.0" vertical-offset="495" max-vertical-offset="1551" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/organizeCMS/lib/calendar/Event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-1.0" vertical-offset="0" max-vertical-offset="924">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-1.0" vertical-offset="0" max-vertical-offset="924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_02_152241_create_settings_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="306" selection-end="306" vertical-scroll-proportion="-12.0" vertical-offset="99" max-vertical-offset="1254">
-          <folding />
-        </state>
+        <state line="16" column="21" selection-start="306" selection-end="306" vertical-scroll-proportion="-12.0" vertical-offset="99" max-vertical-offset="1254" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/organizeCMS/lib/vehicle/fuel/FuelWidget.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="15" selection-start="226" selection-end="226" vertical-scroll-proportion="-13.0" vertical-offset="0" max-vertical-offset="726">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="42" selection-start="534" selection-end="534" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/VehicleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="63" selection-end="63" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="1848">
-          <folding />
-        </state>
+        <state line="13" column="15" selection-start="226" selection-end="226" vertical-scroll-proportion="-13.0" vertical-offset="0" max-vertical-offset="726" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="38.18182" vertical-offset="1260" max-vertical-offset="2145">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="38.18182" vertical-offset="1260" max-vertical-offset="2145" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1518">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1518" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
@@ -1021,45 +1002,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="441" selection-end="441" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="858">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="179" selection-end="179" vertical-scroll-proportion="0.7486911" vertical-offset="0" max-vertical-offset="759">
-          <folding />
-        </state>
+        <state line="15" column="10" selection-start="441" selection-end="441" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="858" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/organizeCMS/lib/vehicle/fuel/Fuel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="298" selection-end="298" vertical-scroll-proportion="1.026178" vertical-offset="6" max-vertical-offset="924">
-          <folding />
-        </state>
+        <state line="18" column="7" selection-start="298" selection-end="298" vertical-scroll-proportion="1.026178" vertical-offset="6" max-vertical-offset="924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/organizeCMS/lib/vehicle/mileage/Mileage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="396">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="396" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="109" selection-end="109" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="825">
-          <folding />
-        </state>
+        <state line="6" column="6" selection-start="109" selection-end="109" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="825" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/organizeCMS/conversion/VolumeTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="1358" selection-end="1358" vertical-scroll-proportion="-9.363636" vertical-offset="747" max-vertical-offset="1320">
-          <folding>
-            <element signature="n#testConvertingLitreToMetricGallons#0;n#VolumeTest#0;n#!!top" expanded="false" />
-          </folding>
+        <state line="38" column="5" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0" vertical-offset="1254" max-vertical-offset="1518">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,35 +1036,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_02_191250_create_fuel_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="227" selection-end="518" vertical-scroll-proportion="-4.0" vertical-offset="297" max-vertical-offset="1320">
+        <state line="14" column="8" selection-start="227" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="894">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/organizeCMS/lib/vehicle/VehicleMake.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="7" selection-start="298" selection-end="298" vertical-scroll-proportion="0.55932206" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="579" selection-end="579" vertical-scroll-proportion="0.3066202" vertical-offset="0" max-vertical-offset="861">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/install/configure.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1522" selection-end="1728" vertical-scroll-proportion="0.44745764" vertical-offset="1089" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="199" selection-end="199" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="759">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_02_220059_create_vehicle_makes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.32881355" vertical-offset="369" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/VehicleMakesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="17" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.7016949" vertical-offset="501" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/VehicleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="21" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-45.0" vertical-offset="0" max-vertical-offset="3003">
+          <folding>
+            <element signature="e#7#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_02_212924_create_vehicles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="349" selection-end="349" vertical-scroll-proportion="-5.818182" vertical-offset="336" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/vehicles/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1752" selection-end="1752" vertical-scroll-proportion="-4.818182" vertical-offset="1524" max-vertical-offset="2409">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="67" selection-start="264" selection-end="264" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="1518">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/organizeCMS/lib/vehicle/Vehicle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.9398907" vertical-offset="111" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_02_212924_create_vehicles_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="348" selection-end="348" vertical-scroll-proportion="-1.0" vertical-offset="495" max-vertical-offset="1320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/FuelTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="0" selection-end="181" vertical-scroll-proportion="-7.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/VehicleTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="178" selection-end="178" vertical-scroll-proportion="0.6010929" vertical-offset="0" max-vertical-offset="660">
+        <state line="11" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.41016948" vertical-offset="0" max-vertical-offset="1056">
           <folding />
         </state>
       </provider>

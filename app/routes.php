@@ -14,5 +14,7 @@
 Route::get('/', "DashboardController@index");
 
 Route::resource('vehicles', 'VehicleController');
+Route::resource('vehiclemakes', 'VehicleMakesController');
+Route::resource('fuel', 'FuelController');
 
 Route::get('install', "InstallController@configure");

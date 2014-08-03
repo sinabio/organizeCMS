@@ -3,6 +3,13 @@
 
 class Vehicle extends \Eloquent
 {
+    public $make;
+    public $model;
+    public $date_bought;
+    public $enginesize;
+    public $price;
+    public $user_id;
+
     /**
      * The database table used by the model.
      *
