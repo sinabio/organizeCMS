@@ -1,7 +1,7 @@
 {
     "name": "organize-cms/organize-cms",
     "description": "Personal CMS for tracking finances, events, etc.",
-    "licence": "GPL-3.0+",
+    "license": "GPL-3.0+",
     "type": "project",
     "require": {
         "laravel/framework": "4.2.*"
@@ -25,7 +25,6 @@
             "app/organizeCMS/lib"
         ],
         "psr-4": {
-
         }
     }
 }
