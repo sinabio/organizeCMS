@@ -1,14 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Sniper
- * Date: 02/08/14
- * Time: 23:02
- */
 
 namespace organizeCMS\lib\vehicle;
 
-
+/**
+ * Class VehicleMake 
+ */
 class VehicleMake extends \Eloquent
 {
     /**
@@ -23,4 +19,5 @@ class VehicleMake extends \Eloquent
      *
      * @var array
      */
-    protected $hidden = array();}
+    protected $hidden = array();
+}
