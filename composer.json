@@ -1,5 +1,5 @@
 {
-    "name": "organizeCMS",
+    "name": "organizeCMS/organizeCMS",
     "description": "Personal CMS for tracking finances, events, etc.",
     "require": {
         "laravel/framework": "4.2.*"
