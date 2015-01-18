@@ -3,6 +3,9 @@
 use organizeCMS\lib\vehicle\Vehicle;
 use organizeCMS\lib\vehicle\VehicleMake;
 
+/**
+ * Class VehicleController
+ */
 class VehicleController extends BaseController
 {
     // default list all method
@@ -82,5 +85,4 @@ class VehicleController extends BaseController
     {
 
     }
-
 }
