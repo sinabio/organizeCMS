@@ -13,7 +13,7 @@
             "homepage": "http://davidcraig.eu",
             "role": "Project Owner / Developer"
         }
-    ]
+    ],
     "autoload": {
         "classmap": [
             "app/commands",
