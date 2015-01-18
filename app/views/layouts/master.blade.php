@@ -34,8 +34,5 @@
         @yield('sidebar')
     </div>
 </div>
-
-
-
 </body>
 </html>
