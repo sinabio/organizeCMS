@@ -1,5 +1,6 @@
-<?php namespace organizeCMS\lib\vehicle;
+<?php
 
+namespace organizeCMS\lib\vehicle;
 
 class Vehicle extends \Eloquent
 {
