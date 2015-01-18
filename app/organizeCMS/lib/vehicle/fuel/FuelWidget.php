@@ -1,9 +1,11 @@
-<?php namespace organizeCMS\lib\vehicle\fuel;
+<?php
+
+namespace organizeCMS\lib\vehicle\fuel;
+
+use organizeCMS\lib\vehicle\fuel\fuel;
 
 class FuelWidget
 {
-    use organizeCMS\lib\vehicle\fuel;
-
     public function getFuel()
     {
         Fuel::all();
