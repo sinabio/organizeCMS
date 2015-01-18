@@ -15,5 +15,4 @@ class FuelWidget
     {
         $fuel = self::getFuel();
     }
-
-} 
+}
