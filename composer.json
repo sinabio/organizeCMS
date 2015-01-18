@@ -1,9 +1,19 @@
 {
-    "name": "organizeCMS/organizeCMS",
+    "name": "organize-cms/organize-cms",
     "description": "Personal CMS for tracking finances, events, etc.",
+    "licence": "GPL-3.0+",
+    "type": "project",
     "require": {
         "laravel/framework": "4.2.*"
     },
+    "authors": [
+        {
+            "name": "David Craig aka PrivateSniper",
+            "email": "privatesniper@gmail.com",
+            "homepage": "http://davidcraig.eu",
+            "role": "Project Owner / Developer"
+        }
+    ]
     "autoload": {
         "classmap": [
             "app/commands",
