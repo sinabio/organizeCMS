@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <link rel="stylesheet" href="<?=asset('assets/css/bootstrap_slate.min.css');?>" />
-    <link rel="stylesheet" href="<?=asset('assets/css/organizecms.css');?>" />
-    <link rel="icon" type="image/png" href="<?=asset('favicon64.png');?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    @include('layouts/_meta')
+    @include('layouts/_style')
+    @include('layouts/_js')
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="<?=asset('assets/js/bootstrap.min.js');?>"></script>
     <title>@yield('title')</title>
 </head>
 <body>
