@@ -3,7 +3,7 @@
         <a class="navbar-brand">organizeCMS</a>
         <div class="navbar-collapse collapse navbar-right">
             <ul class="nav navbar-nav">
-                <li><a href="#">admin</a></li>
+                <li><a href="#">Admin</a></li>
             </ul>
         </div>
     </header>
