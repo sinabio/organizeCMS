@@ -7,7 +7,7 @@ class Vehicle extends \Eloquent
     public $make;
     public $model;
     public $date_bought;
-    public $enginesize;
+    public $engine_size;
     public $price;
     public $user_id;
 
