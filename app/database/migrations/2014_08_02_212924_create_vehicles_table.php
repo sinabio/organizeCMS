@@ -15,10 +15,11 @@ class CreateVehiclesTable extends Migration {
         Schema::create('vehicles', function($table)
         {
             $table->increments('id');
-            $table->date('date_bought')->nullable();
             $table->integer('make');
             $table->string('model');
             $table->decimal('engine_size', 10, 1);
+            $table->date('date_bought')->nullable();
+            $table->decimal('price', 10, 2);
         });
 	}
 
